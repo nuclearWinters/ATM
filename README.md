@@ -10,6 +10,7 @@
 2. Own global state management implementation: only re-render components that listen to the updated store data
 3. Using Esbuild to transpile Typescript and React
 4. Using Atomic CSS Framework to generate a small CSS file
+5. No backend, using localStorage to save the user data
 
 # Casetext Homework Assignment
 Your task in this challenge is to build a demo web app that is a functional ATM machine. Please use a stubbed backend as if you were interacting with a server (ie reading from a file or local storage). Feel free to add any bells and whistles you’d like.
