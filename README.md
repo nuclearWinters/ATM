@@ -3,6 +3,7 @@
 1. Run `npm install`
 2. Run `npm run start`
 3. Go to `http://localhost:8000`
+4. Enter PIN 1234
 
 # Casetext Homework Assignment
 Your task in this challenge is to build a demo web app that is a functional ATM machine. Please use a stubbed backend as if you were interacting with a server (ie reading from a file or local storage). Feel free to add any bells and whistles you’d like.
