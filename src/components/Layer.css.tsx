@@ -8,7 +8,7 @@ export const layerStyles = stylex.create({
     flexDirection: "column",
   },
   background: {
-    background: "purple",
+    background: "#9f80ac",
     flex: 1,
     display: "flex",
     flexDirection: "column",
