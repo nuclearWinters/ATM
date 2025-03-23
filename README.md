@@ -1,3 +1,8 @@
+# Instructions
+
+1. Run `npm install`
+2. Run `npm run start`
+
 # Casetext Homework Assignment
 Your task in this challenge is to build a demo web app that is a functional ATM machine. Please use a stubbed backend as if you were interacting with a server (ie reading from a file or local storage). Feel free to add any bells and whistles you’d like.
 
@@ -15,7 +20,3 @@ Your task in this challenge is to build a demo web app that is a functional ATM 
 
 ## Optional:
 - While a backend is not required for this assignment, if you feel like it will help you, please create one. You may consider setting up a NodeJS backend server with Express to handle all transactions on the server.
-
-## Mocks:
-![Mock 1](assets/Mock_1.png "Mock")
-![Mock 2](assets/Mock_2.png "Mock2")
