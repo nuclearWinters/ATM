@@ -3,22 +3,7 @@ import { useNavigation, useSetStore } from "../../App";
 import { Layer } from "../../components/Layer";
 import * as stylex from "@stylexjs/stylex";
 import { passwordStyles } from "./password.css";
-
-export interface User {
-  name: string;
-  total: number;
-}
-
-export const isUser = (user: unknown): user is User => {
-  return (
-    typeof user === "object" &&
-    user !== null &&
-    "name" in user &&
-    typeof user.name === "string" &&
-    "total" in user &&
-    typeof user.total === "number"
-  );
-};
+import { isUser } from "../../utils";
 
 const authRequest = async (password: string) => {
   return new Promise<{ name: string; total: number }>((resolve, reject) => {

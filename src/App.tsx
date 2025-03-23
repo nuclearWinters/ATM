@@ -3,12 +3,12 @@ import { type FC, useEffect } from "react";
 import { MyRouter } from "./router";
 import { createFastContext } from "./context";
 import { RoutePath } from "./routes";
-import { isUser } from "./pages/password/password";
 import { HomeEntryPoint } from "./pages/home";
 import { DashboardEntryPoint } from "./pages/dashboard";
 import { PasswordEntryPoint } from "./pages/password";
 import { BalanceEntryPoint } from "./pages/balance";
 import { OperationEntryPoint } from "./pages/operation";
+import { isUser } from "./utils";
 
 export const userData = {
   name: "John Doe",
