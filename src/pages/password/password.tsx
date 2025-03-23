@@ -36,7 +36,7 @@ const authRequest = async (password: string) => {
   });
 };
 
-export const Home: FC = () => {
+export const Password: FC = () => {
   const { historyPush } = useNavigation();
   const dispatch = useSetStore();
   const [value, setValue] = useState("");
@@ -92,4 +92,4 @@ export const Home: FC = () => {
   );
 };
 
-export default Home;
+export default Password;
