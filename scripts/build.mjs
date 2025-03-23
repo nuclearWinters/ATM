@@ -24,13 +24,13 @@ async function buildJs() {
     },
     entryPoints: ["src/index.tsx"],
     bundle: true,
-    outdir: "public/dist",
+    outdir: "public",
     splitting: true,
     format: "esm",
     plugins: [
       stylexPlugin({
         dev: false,
-        generatedCSSFileName: "public/dist/out.css",
+        generatedCSSFileName: "public/out.css",
       }),
       customPlugin({ dev: false }),
     ],
